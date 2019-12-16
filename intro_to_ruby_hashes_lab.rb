@@ -31,9 +31,9 @@ def monopoly_with_fourth_tier
   # complexity. 
   base_hash={:railroads =>{:pieces =>4,:rent_in_dollars =>{:one_piece_owned =>25,:two_pieces_owned =>50,:three_pieces_owned =>100,:four_pieces_owned => 200},:names =>{:reading_railroad =>{},:pennsylvania_railroad =>{},:b_and_o_railroad =>{},:shortline_railroad =>{}}} }  
   
-   base_hash[:railroads][:names][:reading_railroad]=100
-   base_hash[:railroads][:names][:pennsylvania_railroad]=200
-   base_hash[:railroads][:names][:b_and_o_railroad]=400
-   base_hash[:railroads][:names][:shortline_railroad]=800
+   base_hash[:railroads][:names][:reading_railroad]="$100"
+   base_hash[:railroads][:names][:pennsylvania_railroad]="$200"
+   base_hash[:railroads][:names][:b_and_o_railroad]="$400"
+   base_hash[:railroads][:names][:shortline_railroad]="$800"
     base_hash
 end
