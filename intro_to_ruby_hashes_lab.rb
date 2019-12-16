@@ -33,5 +33,5 @@ def monopoly_with_fourth_tier
   
    base_hash[:railroads][:names][:reading_railroad]=100
    base_hash[:railroads][:names][:pennsylvania_railroad]=200
-   base_hash[:railroads][:names][:pennsylvania_railroad]=200
+   base_hash[:railroads][:names][:pennsylvania_railroad]=400
 end
